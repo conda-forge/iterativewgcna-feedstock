@@ -10,19 +10,19 @@ source:
   sha256: 1ee490a1b7a0e1164fda08d38053a17f974f82f0237b8c2864bd12a28f3a8efb
 
 build:
-  number: 4
+  number: 5
   skip: True  # [(win and vc < 14)]
   
 requirements:
   build:
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
+    - {{ compiler('c') }}  # [not osx]
+    - {{ compiler('cxx') }}  # [not osx]
     - {{ compiler('fortran') }}  # [not osx]
   host:
     - pip
     - python
-    - r-base
-    - r-nlme
+    - r-base  # [not osx]
+    - r-nlme  # [not osx]
   run:
     - matplotlib
     - python
@@ -38,7 +38,7 @@ test:
     - iterativeWGCNA.r
     - iterativeWGCNA.iterativeWGCNA
   commands:
-    - Rscript -e "library('WGCNA')"  # [not win]
+    - Rscript -e "library('WGCNA')"  # [linux]
     - Rscript.exe -e "library('WGCNA')"  # [win]
 
   
