@@ -23,6 +23,7 @@ requirements:
     - python
     - rpy2  # [not win]
     - rpy2 <3.0  # [win]
+    - r-base
 
 test:
   imports:
