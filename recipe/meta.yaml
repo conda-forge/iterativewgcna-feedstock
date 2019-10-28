@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python
+    - r-base
   run:
     - matplotlib
     - python
@@ -30,6 +31,7 @@ test:
     - iterativeWGCNA.io
     - iterativeWGCNA.r
     - iterativeWGCNA.iterativeWGCNA
+  
 
 about:
   home: "http://github.com/cstoeckert/iterativeWGCNA"
