@@ -1,2 +1,2 @@
 Rscript.exe build.R
-%PYTHON% -m pip install -vv
+"%PYTHON%" -m pip install -vv
