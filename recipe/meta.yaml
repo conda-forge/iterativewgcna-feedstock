@@ -22,12 +22,14 @@ requirements:
     - pip
     - python
     - r-base
+    - r-nlme
   run:
     - matplotlib
     - python
     - rpy2  # [not win]
     - rpy2 <3.0  # [win]
     - r-base
+    - r-nlme
 
 test:
   imports:
