@@ -10,8 +10,7 @@ source:
   sha256: 1ee490a1b7a0e1164fda08d38053a17f974f82f0237b8c2864bd12a28f3a8efb
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 2
   skip: True  # [(win and vc < 14)]
   
 requirements:
@@ -31,6 +30,10 @@ test:
     - iterativeWGCNA.io
     - iterativeWGCNA.r
     - iterativeWGCNA.iterativeWGCNA
+  commands:
+    - Rscript -e "library('WGCNA')"  # [not win]
+    - Rscript.exe -e "library('WGCNA')"  # [win]
+
   
 
 about:
