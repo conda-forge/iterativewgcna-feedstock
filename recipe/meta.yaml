@@ -23,6 +23,7 @@ requirements:
     - python
     - r-base  # [not osx]
     - r-nlme  # [not osx]
+    - r-biocmanager
   run:
     - matplotlib
     - python
@@ -30,6 +31,7 @@ requirements:
     - rpy2 <3.0  # [win]
     - r-base
     - r-nlme
+    - r-biocmanager
 
 test:
   imports:
