@@ -10,7 +10,7 @@ source:
   sha256: 1ee490a1b7a0e1164fda08d38053a17f974f82f0237b8c2864bd12a28f3a8efb
 
 build:
-  number: 5
+  number: 6
   skip: True  # [(win and vc < 14)]
   
 requirements:
@@ -23,6 +23,7 @@ requirements:
     - python
     - r-base  # [not osx]
     - r-nlme  # [not osx]
+    - r-biocmanager
   run:
     - matplotlib
     - python
@@ -30,6 +31,7 @@ requirements:
     - rpy2 <3.0  # [win]
     - r-base
     - r-nlme
+    - r-biocmanager
 
 test:
   imports:
