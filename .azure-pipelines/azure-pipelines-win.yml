@@ -26,6 +26,14 @@ jobs:
         CONFIG: win_c_compilervs2015cxx_compilervs2015python3.7r_base3.6vc14
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
+      win_c_compilervs2015cxx_compilervs2015python3.8r_base3.5.1vc14:
+        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.8r_base3.5.1vc14
+        CONDA_BLD_PATH: D:\\bld\\
+        UPLOAD_PACKAGES: True
+      win_c_compilervs2015cxx_compilervs2015python3.8r_base3.6vc14:
+        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.8r_base3.6vc14
+        CONDA_BLD_PATH: D:\\bld\\
+        UPLOAD_PACKAGES: True
   steps:
     # TODO: Fast finish on azure pipelines?
     - script: |
