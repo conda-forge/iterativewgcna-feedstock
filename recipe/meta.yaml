@@ -12,6 +12,7 @@ source:
 build:
   number: 6
   skip: True  # [(win and vc < 14)]
+  skip: True  # [(win and py>=38)]
   
 requirements:
   build:
