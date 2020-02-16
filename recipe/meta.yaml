@@ -26,7 +26,7 @@ requirements:
     - r-nlme  # [not osx]
     - r-biocmanager
   run:
-    - matplotlib
+    - matplotlib-base
     - python
     - rpy2  # [not win]
     - rpy2 <3.0  # [win]
