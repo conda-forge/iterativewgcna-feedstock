@@ -4,7 +4,7 @@ install_packages <- function()
 	successful <- FALSE
 	successful<-tryCatch(
 	{
-	  install.packages(c("digest"), dependencies=TRUE, INSTALL_opts=c("--no-lock"))
+#		install.packages(c("digest"), dependencies=TRUE, INSTALL_opts=c("--no-lock"))
 		BiocManager::install(c("impute", "preprocessCore", "GO.db", "AnnotationDbi"), dependencies=TRUE, INSTALL_opts=c("--no-lock"))
 		return(TRUE)
 	},
