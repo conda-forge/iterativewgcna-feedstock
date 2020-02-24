@@ -12,6 +12,7 @@ install_packages <- function()
 	return(successful)
 	
 }
+
 for(i in seq(0, 10))
 {
 	if(install_packages())
