@@ -20,4 +20,4 @@ for(i in seq(0, 10))
 	}
 }
 warnings()
-install.packages("WGCNA", dependencies=TRUE, INSTALL_opts=c("--no-lock"), repos="http://cran.us.r-project.org")
+install.packages("WGCNA", dependencies=TRUE, INSTALL_opts=c("--no-lock"), repos="http://cran.us.r-project.org", type="binary")
