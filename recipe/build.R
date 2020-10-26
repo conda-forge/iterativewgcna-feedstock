@@ -11,6 +11,11 @@ install_packages <- function()
 	return(successful)
 	
 }
+if(version$major < 4)
+{
+	# Install the old version of foreign
+	 install.packages("https://cran.r-project.org/src/contrib/Archive/foreign/foreign_0.8-76.tar.gz")
+}
 for(i in seq(0, 10))
 {
 	if(install_packages())
