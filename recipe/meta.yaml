@@ -29,7 +29,7 @@ requirements:
     - python
     - rpy2
     - r-base  # [not win]
-    - r-base >= 4.0  # [win]
+    - r-base >=4.0  # [win]
     - r-nlme
     - r-biocmanager
 
