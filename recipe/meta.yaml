@@ -10,9 +10,8 @@ source:
   sha256: 1ee490a1b7a0e1164fda08d38053a17f974f82f0237b8c2864bd12a28f3a8efb
 
 build:
-  number: 13
+  number: 14
   skip: True  # [(win and vc < 14)]
-  skip: True  # [(win and r-base < 4.0)]
   
 requirements:
   build:
@@ -22,14 +21,16 @@ requirements:
   host:
     - pip
     - python
-    - r-base  # [not osx]
+    - r-base  # [linux]
+    - r-base >=4.0  # [win]
     - r-nlme  # [not osx]
     - r-biocmanager
   run:
     - matplotlib-base
     - python
     - rpy2
-    - r-base
+    - r-base >=4.0  # [win]
+    - r-base  # [not win]
     - r-nlme
     - r-biocmanager
 
