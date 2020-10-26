@@ -154,48 +154,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>win_64_python3.6.____cpythonr_base3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6.____cpythonr_base3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.6.____cpythonr_base4.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6.____cpythonr_base4.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.7.____cpythonr_base3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythonr_base3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.7.____cpythonr_base4.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythonr_base4.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.8.____cpythonr_base3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythonr_base3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.8.____cpythonr_base4.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythonr_base4.0" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
