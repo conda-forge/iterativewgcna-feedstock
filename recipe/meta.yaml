@@ -40,8 +40,7 @@ requirements:
   run:
     - matplotlib-base
     - python
-    - rpy2  # [not win]
-    - rpy2 <3.0  # [win]
+    - rpy2
     - r-base
     - r-nlme
     - r-hmisc
