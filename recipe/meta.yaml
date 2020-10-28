@@ -16,14 +16,20 @@ build:
   
 requirements:
   build:
-    - {{ compiler('c') }}  # [not osx]
-    - {{ compiler('cxx') }}  # [not osx]
-    - {{ compiler('fortran') }}  # [not osx]
+    - {{ compiler('c') }}  # [not win]
+    - {{ compiler('m2w64_c') }}  # [win]
+    - {{ compiler('cxx') }}  # [not win]
+    - {{ compiler('m2w64_cxx') }}  # [win]
+    - {{ posix }}filesystem  # [win]
+    - {{ posix }}make
+    - {{ posix }}sed  # [win]
+    - {{ posix }}coreutils  # [win]
+    - {{ posix }}zip  # [win]
   host:
     - pip
     - python
-    - r-base  # [not osx]
-    - r-nlme  # [not osx]
+    - r-base
+    - r-nlme
     - r-annotationdbi
     - r-go.db
     - r-hmisc
