@@ -55,12 +55,6 @@ requirements:
 test:
   imports:
     - iterativeWGCNA
-    - iterativeWGCNA.io
-    - iterativeWGCNA.r
-    - iterativeWGCNA.iterativeWGCNA
-  commands:
-    - Rscript -e "library('WGCNA')"  # [linux]
-    - Rscript.exe -e "library('WGCNA')"  # [win]
 
   
 
