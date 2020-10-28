@@ -16,6 +16,7 @@ build:
 
   skip: True  # [(win and vc < 14)]
   skip: True  # [(win and py>=38)]
+  script: {{ PYTHON }} -m pip install . -vv 
   
 requirements:
   build:
