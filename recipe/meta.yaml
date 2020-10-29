@@ -27,16 +27,6 @@ requirements:
   host:
     - pip
     - python
-    - r-base
-    - r-nlme
-    - r-hmisc
-    - r-rcpp >=0.11.0
-    - r-doparallel
-    - r-dynamictreecut >=1.62
-    - r-fastcluster
-    - r-foreach
-    - r-matrixstats >=0.8.1
-    - r-survival
   run:
     - matplotlib-base
     - python
