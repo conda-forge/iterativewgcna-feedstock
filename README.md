@@ -7,7 +7,7 @@ Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iterativewgcna-feedstock/blob/master/LICENSE.txt)
 
-Summary: Iterative application of WGCNA
+Summary: iterativeWGCNA provides a Python-wrapped extension for the R program Weighted Gene Correlation Network Analysis (WGCNA) that improves the robustness of network-based classifications (modules) inferred from whole-transcriptome gene expression datasets.
 
 Documentation: https://www.biorxiv.org/content/10.1101/234062v1
 

@@ -10,39 +10,37 @@ source:
   sha256: 1ee490a1b7a0e1164fda08d38053a17f974f82f0237b8c2864bd12a28f3a8efb
 
 build:
-  number: 8
+
+
+  number: 16
+
   skip: True  # [(win and vc < 14)]
   skip: True  # [(win and py>=38)]
+  script: {{ PYTHON }} -m pip install . -vv 
   
 requirements:
   build:
-    - {{ compiler('c') }}  # [not osx]
-    - {{ compiler('cxx') }}  # [not osx]
-    - {{ compiler('fortran') }}  # [not osx]
   host:
     - pip
     - python
-    - r-base  # [not osx]
-    - r-nlme  # [not osx]
-    - r-biocmanager
   run:
     - matplotlib-base
     - python
-    - rpy2  # [not win]
-    - rpy2 <3.0  # [win]
+    - rpy2
     - r-base
     - r-nlme
-    - r-biocmanager
+    - r-hmisc
+    - r-rcpp >=0.11.0
+    - r-doparallel
+    - r-dynamictreecut >=1.62
+    - r-fastcluster
+    - r-foreach
+    - r-matrixstats >=0.8.1
+    - r-survival
 
 test:
   imports:
     - iterativeWGCNA
-    - iterativeWGCNA.io
-    - iterativeWGCNA.r
-    - iterativeWGCNA.iterativeWGCNA
-  commands:
-    - Rscript -e "library('WGCNA')"  # [linux]
-    - Rscript.exe -e "library('WGCNA')"  # [win]
 
   
 
@@ -51,7 +49,9 @@ about:
   license: "GPL-2.0-only"
   license_family: "GPL"
   license_file: "LICENSE.txt"
-  summary: "Iterative application of WGCNA"
+  summary: iterativeWGCNA provides a Python-wrapped extension for the R program Weighted 
+    Gene Correlation Network Analysis (WGCNA) that improves the robustness of network-based 
+    classifications (modules) inferred from whole-transcriptome gene expression datasets.
   doc_url: "https://www.biorxiv.org/content/10.1101/234062v1"
 
 extra:
