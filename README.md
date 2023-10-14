@@ -1,11 +1,11 @@
-About iterativewgcna
-====================
+About iterativewgcna-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iterativewgcna-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/cstoeckert/iterativeWGCNA
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iterativewgcna-feedstock/blob/main/LICENSE.txt)
 
 Summary: iterativeWGCNA provides a Python-wrapped extension for the R program Weighted Gene Correlation Network Analysis (WGCNA) that improves the robustness of network-based classifications (modules) inferred from whole-transcriptome gene expression datasets.
 
@@ -29,13 +29,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpythonr_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonr_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_python3.10.____cpythonr_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
@@ -43,10 +36,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythonr_base4.1</td>
+              <td>linux_64_python3.10.____cpythonr_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -57,10 +50,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.8.____cpythonr_base4.1</td>
+              <td>linux_64_python3.11.____cpythonr_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonr_base4.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.12.____cpythonr_base4.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonr_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.12.____cpythonr_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -71,10 +78,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpythonr_base4.1</td>
+              <td>linux_64_python3.8.____cpythonr_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -85,10 +92,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythonr_base4.1</td>
+              <td>linux_64_python3.9.____cpythonr_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -99,10 +106,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythonr_base4.1</td>
+              <td>osx_64_python3.10.____cpythonr_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -113,10 +120,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.8.____cpythonr_base4.1</td>
+              <td>osx_64_python3.11.____cpythonr_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonr_base4.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.12.____cpythonr_base4.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonr_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.12.____cpythonr_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -127,10 +148,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.9.____cpythonr_base4.1</td>
+              <td>osx_64_python3.8.____cpythonr_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -138,6 +159,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonr_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.9.____cpythonr_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8068&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/iterativewgcna-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonr_base4.3" alt="variant">
                 </a>
               </td>
             </tr>

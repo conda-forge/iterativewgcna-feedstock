@@ -16,6 +16,6 @@ pin_run_as_build:
 python:
 - 3.10.* *_cpython
 r_base:
-- '4.1'
+- '4.3'
 target_platform:
 - osx-64
