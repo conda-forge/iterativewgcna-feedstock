@@ -12,7 +12,7 @@ source:
 build:
 
 
-  number: 20
+  number: 21
 
   skip: True  # [(win and vc < 14)]
   skip: True  # [(win and py>=38)]
@@ -23,6 +23,7 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - matplotlib-base
     - python
